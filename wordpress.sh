@@ -5,9 +5,9 @@ echo "*Step 1:  Updates the package list.."
 sleep 2 
 echo "*Step 2: installing the Docker and Docker-compose"
 sleep 2
-echo "* Step 3: creating a directory name wordpress:"
+echo "*Step 3: creating a directory name wordpress:"
 sleep 2
-echo "Step 4: Creating the docker-compose.yaml file inside of wordpress and run it."
+echo "*Step 4: Creating the docker-compose.yaml file inside of wordpress and run it."
 sleep 2
 echo "YOU JUST NEED TO WAIT and ENJOY!!!!"
 sleep 2
@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install docker.io docker-compose -y
 mkdir wordpress
 cd wordpress
-cat <<EOL > /home/khael/wordpress/docker-compose.yml
+cat <<EOL > docker-compose.yml
 version: '3.1'
 
 services:
